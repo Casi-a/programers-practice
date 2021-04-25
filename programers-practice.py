@@ -35,3 +35,31 @@
 #     print(string.ascii_lowercase)
 # elif num == 1:
 #     print(string.ascii_uppercase)
+
+# # 원본을 유지한채, 정렬된 리스트 구하기 - sorted() 
+# list1 = [3, 2, 1]
+# list2 = sorted(list1)
+# print(list2)
+
+
+# # 2차원 리스트 뒤집기
+# def solution(mylist):
+#     new_list = list(map(list, zip(*mylist)))
+#     return new_list
+
+#  mylist = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+#  print(solution(mylist))
+# for i in range(len(mylist)):
+#    for j in range(len(mylist[i])):
+#       print(mylist[j][i])
+
+# mylist = [1, 2, 3]
+# new_list = [40, 50, 60]
+# for i in zip(mylist, new_list):
+#     print (i)
+
+# animals = ['cat', 'dog', 'lion']
+# sounds = ['meow', 'woof', 'roar']
+# answer = dict(zip(animals, sounds))
+# print(answer)
+
